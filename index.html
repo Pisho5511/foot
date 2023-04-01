@@ -7,18 +7,43 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div id="wg-api-football-fixtures"
-                    data-host="v3.football.api-sports.io"
-                    data-refresh="60"
-                    data-date="2023-03-31"
-                    data-key="d78602a71b4511ed19f2f0a141cd931a"
-                    data-theme="dark"
-                    data-show-errors="false"
-                    class="api_football_loader">
-        </div>
-        <script
-                    type="module"
-                    src="https://widgets.api-sports.io/football/1.1.8/widget.js">
-                </script>
+
+        <div id="wg-api-football-standings"
+    data-host="v3.football.api-sports.io"
+    data-key="d78602a71b4511ed19f2f0a141cd931a"
+    data-league="32"
+    data-team=""
+    data-season="2021"
+    data-theme=""
+    data-show-errors="false"
+    data-show-logos="true"
+    class="wg_loader">
+</div>
+
+
+        <div id="wg-api-football-games"
+     data-host="v3.football.api-sports.io"
+     data-key="d78602a71b4511ed19f2f0a141cd931a"
+     data-date=""
+     data-league=""
+     data-season=""
+     data-theme="dark"
+     data-refresh="15"
+     data-show-toolbar="true"
+     data-show-errors="false"
+     data-show-logos="false"
+     data-modal-game="true"
+     data-modal-standings="true"
+     data-modal-show-logos="true">
+</div>
+
+
+<script
+    type="module"
+    src="https://widgets.api-sports.io/2.0.3/widgets.js">
+
+    
+    
+</script>
     </body>
 </html>
